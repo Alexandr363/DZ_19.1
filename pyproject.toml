@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dz-19-1"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr Lebedev <alexandr.lebedev.sp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dz_19"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
